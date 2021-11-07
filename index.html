@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- My css -->
     <link rel="stylesheet" href="assets/css/mycss.css" />
-    <title>Muhammad Firhan Fathurrahman</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+
+    <title>Muhammad Firhan Fathurrahman</title>
   </head>
   <body id="home">
     <!-- navbar -->
@@ -44,8 +47,8 @@
     <!-- jumbotron -->
     <section class="jumbotron text-center">
       <img src="assets/img/IMG_20210528_082643-removebg-preview.png" alt="Firhan" width="200px" class="rounded-circle" />
-      <h1>Muhammad Firhan Fathurrahman</h1>
-      <p class="lead">Students || Rakyat</p>
+      <h1></h1>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -60,15 +63,15 @@
     <section id="about" class="about">
       <div class="container mt-3">
         <div class="row">
-          <div class="col text-center fw-bold">
+          <div class="col text-center fw-bold"data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <h3>About Me</h3>
           </div>
         </div>
         <div class="row text-center justify-content-center fs-5 mt-3">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up-right">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorum quam vero impedit commodi, nisi incidunt ad aperiam blanditiis consequuntur.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up-left" data-aos-duration="1500">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquid illo aspernatur temporibus expedita veritatis quae facere ratione, fugiat, assumenda non, natus et quia cupiditate optio accusantium illum
               perspiciatis? Beatae!
@@ -90,13 +93,13 @@
     <section id="project">
       <div class="container">
         <div class="row">
-          <div class="col text-center fw-bold">
+          <div class="col text-center fw-bold" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <h3>My Project</h3>
           </div>
         </div>
         <div class="row mt-3 justify-content-center text-center fs-5">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down">
               <img src="assets/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up">
               <img src="assets/img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -112,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down">
               <img src="assets/img/domenico-loia-hGV2TfOh0ns-unsplash.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -120,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up">
               <img src="assets/img/christian-wiediger-WkfDrhxDMC8-unsplash.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -128,7 +131,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down">
               <img src="assets/img/domenico-loia-hGV2TfOh0ns-unsplash.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -151,11 +154,12 @@
     <section id="contact">
       <div class="container">
         <div class="row text-center">
-          <div class="col fw-bold">
+          <div class="col fw-bold" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <h3>Contact Me</h3>
           </div>
         </div>
         <div class="row justify-content-center fs-5">  
+          <div class="col-md-6">
             <form name="contact-form">
               <div class="mb-3">
                 <label for="nama" class="form-label">Nama lengkap</label>
@@ -181,6 +185,8 @@
                 </div>
             </form>
           </div>
+            
+          </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -200,9 +206,8 @@
 
    <!-- Option 1: Bootstrap Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
 
+   <!-- google sheet contact me -->
       <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyQlzxnY-8xADr5hcRbVLygF2BHyedPPVj74eZz12LDtjBMFzNWrko1mVmliuqHzNOt/exec';
       const form = document.forms['contact-form'];
@@ -231,5 +236,26 @@
       });
     </script>
      
+     <!-- AOS -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+        duration: 1000,
+        once: false
+       });
+     </script>
+   
+   <!-- GSAP -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+     <!-- plagin text -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+   <script> 
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.jumbotron h1', {duration: 3, delay: 1, text: 'Muhammad Firhan Fathurrahman'});
+      gsap.to('.jumbotron .lead', {duration: 4, delay: 1, text: 'Students || Rakyat'});
+      gsap.from('.jumbotron img', {duration: 2, y : -100, opacity: 0, ease: 'bounce' });
+  </script>
+
+ 
   </body>
 </html>
